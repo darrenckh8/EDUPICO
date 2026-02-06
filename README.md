@@ -2,6 +2,14 @@
 
 Welcome to the EDUWEL EDU PICO Learning Repository! This comprehensive educational resource contains structured learning materials for microcontroller programming, electronics, and CircuitPython development using the EDU PICO platform.
 
+## 🎓 Teaching Materials & Slides
+
+Access the complete teaching materials and presentation slides for each level:
+
+- **[Level 1 - Fundamentals](https://ckh8.my.canva.site/edupico-lv1)** - Introduction to sensors, actuators, and basic programming
+- **[Level 2 - Integration Projects](https://ckh8.my.canva.site/edupico-lv2)** - Multi-component project tutorials
+- **[Level 3 - Advanced Applications](https://ckh8.my.canva.site/edupico-lv3)** - Complex real-world applications
+
 ## 📚 Repository Structure
 
 ### EDU PICO Course Materials
