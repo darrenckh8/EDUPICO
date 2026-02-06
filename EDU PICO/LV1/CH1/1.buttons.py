@@ -8,8 +8,8 @@ button_B = digitalio.DigitalInOut(board.GP1)
 button_A.direction = digitalio.Direction.INPUT
 button_B.direction = digitalio.Direction.INPUT
 
-button_B.pull = digitalio.Pull.UP
 button_A.pull = digitalio.Pull.UP
+button_B.pull = digitalio.Pull.UP
 
 button_A_count = 0
 button_B_count = 0

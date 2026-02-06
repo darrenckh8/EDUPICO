@@ -5,37 +5,46 @@ Welcome to the EDUWEL EDU PICO Learning Repository! This comprehensive education
 ## 📚 Repository Structure
 
 ### EDU PICO Course Materials
-The `EDU PICO` directory contains a complete 20-chapter curriculum covering the below topics:
+The `EDU PICO` directory contains a structured curriculum for learning microcontroller programming with CircuitPython on the EDU PICO platform.
 
-#### **Level 1**
-- **CH1**: Buttons and Digital Input
-- **CH2**: Potentiometers and Analog Input
-- **CH3**: NeoPixel RGB LEDs and Light Spectrum
-- **CH4**: Color Sensors and Vision Systems
-- **CH5**: Proximity Sensors and Distance Measurement
-- **CH6**: Gesture Recognition Systems
-- **CH7**: Environmental Sensing (Temperature)
-- **CH8**: Environmental Sensing (Humidity)
-- **CH9**: Audio Data Processing and Analysis
-- **CH10**: Buzzer Systems and Audio Feedback
-- **CH11**: Audio Jack Integration and Sound Processing
-- **CH12**: Servo Motor Control
-- **CH13**: DC Motor Systems
-- **CH14**: USB Relay Control
-- **CH15**: OLED Display Programming
-- **CH16**: Web Server Development (Access Point Mode)
-- **CH17**: Web Server Development (Station Mode)
-- **CH18**: Smart Fan Control System Project
-- **CH19**: MP3 Player Project
-- **CH20**: Weather Station Project
-- **CH21**: Gesture Password System (Bonus Project)
+#### **Level 1 - Fundamentals (CH1-CH16)**
+Progressive lessons introducing core sensors, actuators, and programming concepts:
 
-#### **Level 2**
-- **CH1-5**: Smart Home Control Panel
-- **CH6-10**: Environmental Dashboard with Alerts
+- **CH1**: Buttons - Button counter program with press detection and debouncing
+- **CH2**: Potentiometer - Real-time analog input reading with voltage/percentage display and visual bar
+- **CH3**: NeoPixel RGB LED - Interactive color mixing using button selection and potentiometer brightness control
+- **CH4**: Color Sensor - RGB color detection and identification using APDS9960
+- **CH5**: Proximity Sensor - Distance measurement with 5-level LED visual feedback
+- **CH6**: Gesture Sensor - Directional gesture tracking (up, down, left, right) with NeoPixel indicators
+- **CH7**: Temperature & Humidity Sensor - Environmental monitoring with AHT20 sensor
+- **CH8**: PDM Microphone - Sound level detection with clap counter and LED response
+- **CH9**: Buzzer - Musical note generation with doorbell sounds and scale playback
+- **CH10**: Audio Jack - MP3 player with button-controlled playlist navigation
+- **CH11**: Servo Motor - Continuous servo control with potentiometer speed adjustment
+- **CH12**: DC Motor - Bidirectional motor control with variable speed using PWM
+- **CH13**: USB Relay - Simple on/off relay control via serial input
+- **CH14**: OLED Display - Graphics library demonstration with text, shapes, and scrolling animations
+- **CH15**: Web Server Part 1 - Access Point mode web server for relay control
+- **CH16**: Web Server Part 2 - Station mode web server connecting to existing WiFi networks
 
-#### **Level 3**
-Coming Soon!
+#### **Level 2 - Integration Projects (P1-P4)**
+Hands-on projects combining multiple sensors and components:
+
+- **P1**: Gesture Password - Multi-factor security system with gesture-based unlock and relay control
+- **P2**: MP3 Player - Full-featured audio player with play/pause, skip, and long-press controls
+- **P3**: Catch the Ball Game - OLED-based arcade game with potentiometer paddle and scoring system
+- **P4**: Smart Fan - DC motor fan with dual control modes (manual potentiometer and preset speeds)
+
+#### **Level 3 - Advanced Applications (P1-P4)**
+Complex real-world applications integrating multiple systems:
+
+- **P1**: Environmental Dashboard - Cloud-connected monitoring system with InfluxDB data logging for temperature, humidity, sound, and light
+- **P2**: Weather Station - Live weather data display using external API with OLED visualization
+- **P3**: Smart Home Control Panel - Web-controlled interface for managing relay, NeoPixels, and DC motor
+- **P4**: NeoPixel Light Show - Audio-reactive LED spectrum analyzer using FFT and microphone input
+
+#### **Extra**
+- **Simon Says Game** - Memory challenge game with 5 LED colors, buzzer feedback, lives system, and high score tracking
 
 ### Running Examples
 Each chapter contains ready-to-run Python scripts. Navigate to any chapter directory and run the code using Thonny

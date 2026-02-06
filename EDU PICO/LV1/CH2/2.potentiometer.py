@@ -15,7 +15,7 @@ while True:
 
     bar_length = 20
     filled_length = min(bar_length, round((raw_value / 65535) * bar_length))
-    bar = "█" * filled_length + "░" * (bar_length - filled_length)
+    bar = "=" * filled_length + "-" * (bar_length - filled_length)
 
     if reading_count % 1 == 0:
         print(f"\nPOTENTIOMETER STATISTICS (Reading #{reading_count})")
